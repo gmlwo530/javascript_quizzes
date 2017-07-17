@@ -1,10 +1,10 @@
 import {fooString} from './foo.js';
-import {barString} from './bar.js';// 여기에 'FOO' 와 'BAR' 문자열을 임포트하세요
+import BAR from './bar.js';// 여기에 'FOO' 와 'BAR' 문자열을 임포트하세요
 // 또한 아래의 bazString을 실제로 임포트할 수 있도록 올바른 위치에 파일을 만드세요.
 import { bazString } from './baz/bazFile.js';
 
 
-const result = fooString + barString + bazString;
+const result = fooString + BAR + bazString;
 
 const expectedResult = 'FOOBARBAZ';
 
