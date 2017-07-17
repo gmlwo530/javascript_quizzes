@@ -1,1 +1,1 @@
-export default 'BAR';
+export const barString = 'BAR';
